@@ -1,0 +1,148 @@
+@font-face {
+  font-family: 'VT323';
+  src: url('https://file.garden/ZsJltiD-bXBSm0-A/vt323/VT323-Regular.ttf'); 
+}
+
+Html {
+  background-size: 100% 100%;
+  color: black;
+  background-image: linear-gradient(#ff5776, #e80000);
+  cursor: url(https://cur.cursors-4u.net/cursors/cur-4/cur314.ani), url(https://cur.cursors-4u.net/cursors/cur-4/cur314.png), auto;
+  font-family: 'VT323', 'ms gothic';
+  text-align: center;
+  font-size: 16px;
+}
+
+
+body {
+  margin: 0;
+}
+
+h1 {
+  font-size: 32px
+}
+
+h2 {
+  font-size: 28px
+}
+
+h3 {
+  font-size: 24px
+}
+
+p {
+  font-size: 16px 
+}
+
+mark {
+  background-color: white;
+  color: red;
+}
+
+.gridContainer {
+  display: grid;
+  grid-template-columns: repeat(2, 2fr);
+  place-content: center;
+  grid-row-gap: 8px;
+  grid-column-gap: 8px;
+  margin-top: 8px;
+  margin-left: 8px;
+  margin-right: 8px;
+  margin-bottom: 8px;
+  padding: 0px;
+}
+
+#flagbar {
+  position: relative;
+  border: #ebcc00 5px solid;
+  border-radius: 4px;
+  height: auto;
+  width: 100%;
+  margin-left: 8px;
+  margin-top: 4px;
+  margin-bottom: 8px;
+  margin-right: 8px;
+  padding: 8px;
+  background-image: linear-gradient(to right, white, #ffe860, #fa1e1e);
+  /*background-color: white;*/
+  font-size: 24px;
+}
+
+#menu {
+  font-size: 24px;
+}
+
+#mainContainer {
+  border: #ebcc00 5px solid;
+  border-radius: 4px;
+  height: auto;
+  width: 80%;
+  margin: auto;
+  padding: 15px;
+  background-size: 100% 100%;
+  /* background-image: linear-gradient( white, #ffe860); */
+  background-color: white;
+}
+
+#topSection {
+  display: grid;
+  grid-template-columns: 1fr, 1fr;
+  grid-template-rows: 1fr, 1fr;
+  grid-template-areas: 
+  "box-1 box-1"
+  "box-2 box-2";
+  place-content: center;
+  grid-row-gap: 8px;
+  grid-column-gap: 8px;
+  margin-top: 8px;
+  margin-left: 8px;
+  margin-right: 8px;
+  margin-bottom: 8px;
+  padding: 0px;
+}
+
+#flagBar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: #ebcc00 5px solid;
+  border-radius: 8px;
+  background-color: white;
+  }
+
+.flag {
+  border: #00d3ff 3px solid;
+  border-radius: 16px;
+  height: 100px;
+  width: 250px;
+  background-size: 100% 100%;
+  margin-top: 8px;
+  margin-left: 8px;
+  margin-right: 8px;
+  margin-bottom: 8px;
+
+}
+
+#noteBox {
+  border: #ebcc00 5px solid;
+  border-radius: 4px;
+  height: auto;
+  width: 80%;
+  margin-bottom: 16px;
+  margin: auto;
+  padding: 15px;
+  background-size: 100% 100%;
+  background-color: white;
+}
+
+.titleText {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.headingText {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+

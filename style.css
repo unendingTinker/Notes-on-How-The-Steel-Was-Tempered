@@ -5,7 +5,7 @@
 Html {
   background-size: 100% 100%;
   color: black;
-  background-image: url("https://raw.githubusercontent.com/unendingTinker/Notes-on-How-The-Steel-Was-Tempered/refs/heads/main/websiteBG.png");
+  background-image: url("https://raw.githubusercontent.com/unendingTinker/Notes-on-How-The-Steel-Was-Tempered/refs/heads/main/websiteBG.png") repeat;
   font-family: 'mono', 'ms gothic';
   text-align: center;
   font-size: 16px;
